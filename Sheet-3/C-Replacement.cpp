@@ -13,6 +13,14 @@
 // Output
 // Print the array after the replacement and it's values separated by space.
 
+// Example
+// Input
+// 5
+// 1 -2 0 3 4
+// Output
+// 1 2 0 1 1 
+
+
 #include <iostream>
 using namespace std;
 

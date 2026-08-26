@@ -15,6 +15,26 @@
 // Output
 // Print the absolute summation of these numbers.
 
+// Examples
+// Input
+// 4
+// 7 2 1 3
+// Output
+// 13
+
+// Input
+// 3
+// -1 2 -3
+// Output
+// 2
+
+// Note
+// Second Example :
+
+// -1 + 2 + -3 = -2 and it absolute is 2 so the answer is 2.
+
+
+
 #include <iostream>
 using namespace std;
 int main()

@@ -1,2 +1,4 @@
-# Newcomer-Codeforces-Sheet-3
-# Newcomer-Codeforces-Sheet-3
+# Codeforces-Sheet-3
+
+<a href="https://codeforces.com/group/MWSDmqGsZm/contest/219774">Problem Set</a>
+

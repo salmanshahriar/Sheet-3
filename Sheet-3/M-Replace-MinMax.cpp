@@ -37,22 +37,21 @@ int main() {
     cin >> a[i];
   }
 
-  int minIndex = 0;
-  int maxIndex = 0;
+  int min = 0;
+  int max = 0;
 
   for (int i = 1; i < n; i++) {
-    if (a[i] < a[minIndex]) {
-      minIndex = i;
+    if (a[i] < a[min]) {
+      min = i;
     }
-
-    if (a[i] > a[maxIndex]) {
-      maxIndex = i;
+    if (a[i] > a[max]) {
+      max = i;
     }
   }
 
-  int temp = a[minIndex];
-  a[minIndex] = a[maxIndex];
-  a[maxIndex] = temp;
+  int temp = a[min];
+  a[min] = a[max];
+  a[max] = temp;
 
   for (int i = 0; i < n; i++) {
     cout << a[i] << " ";

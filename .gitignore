@@ -1,4 +1,6 @@
 
-.vscode
-.DS_Sotre
-./build
+.vscode/
+.DS_Store
+build/
+*.dSYM/
+*.out
